@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    eventmaker (0.0.1)
+      icalendar
+      json
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    icalendar (2.4.1)
+    json (1.8.3)
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.5)
+  eventmaker!
+  rake
+
+BUNDLED WITH
+   1.13.1

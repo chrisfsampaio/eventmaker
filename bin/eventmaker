@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'eventmaker'
+
+file_name = ARGV.first || "./event.json"
+puts Eventmaker.from_json_file(File.expand_path(file_name))
